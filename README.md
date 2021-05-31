@@ -3,6 +3,7 @@
 Implementation of MVC design pattern in PHP.
 
 ### Feature
+* Dynamic routing
 * MySQL PDO connection
 * POST and GET request
 
