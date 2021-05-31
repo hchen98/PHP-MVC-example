@@ -1,0 +1,8 @@
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} ^localhost$ [NC,OR]
+RewriteCond %{HTTP_HOST} ^localhost$
+RewriteCond %{REQUEST_URI} !mvc/public/
+RewriteRule (.*) /mvc/public/$1 [L]
+
+
